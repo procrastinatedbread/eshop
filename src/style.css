@@ -1,0 +1,521 @@
+/* AVATAR */
+
+.avatar-75 {
+  height: 75px !important;
+  width: 75px !important;
+}
+.avatar-200 {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.avatar {
+  /* for circle */
+  height: 90px;
+  width: 90px;
+
+  background-color: indianred;
+  border-radius: 50%;
+  border: 1px solid black;
+  /* for initials */
+  color: rgb(43, 29, 29);
+  font-size: 40px;
+  font-weight: bold;
+  /* for centering the intials */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-picture {
+  border: 1px solid black;
+  /* background: url(./avatar.svg); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.badge-avatar {
+  font-size: 14px;
+  position: absolute;
+  left: 45px;
+  top: 0px;
+}
+
+/* :hover > .avatar-picture {
+  border: 6px solid blue;
+} */
+
+/* AVATAR */
+
+/* ALERT */
+/* https://www.w3schools.com/howto/howto_js_alert.asp */
+
+.alert {
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  border: 1px solid black;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.closebtn {
+  float: right;
+  font-size: larger;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: black;
+}
+.alert-danger {
+  background-color: red;
+}
+.alert-success {
+  background-color: rgb(53, 153, 53);
+}
+.alert-info {
+  background-color: rgb(94, 94, 231);
+}
+.alert-warning {
+  background-color: rgb(177, 177, 22);
+}
+
+/* ALERT */
+/* Badge */
+.badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.badge-icon {
+  position: absolute;
+  left: 45px;
+}
+/* ICON */
+.icon {
+  /* background: url(./IMG-20211209-WA0012-01-02.jpeg); */
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* ICON */
+/* Badge */
+
+/* Button */
+#sample {
+  background-color: black;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 6px;
+}
+/* Button */
+/* Primary Link */
+.link-primary {
+  text-decoration: none;
+  color: black;
+}
+.link-primary:hover {
+  text-decoration: underline;
+  color: blue;
+}
+/* Primary Link */
+/* Icon buttons */
+/* https://www.w3schools.com/howto/howto_css_icon_buttons.asp */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+/* Icon buttons */
+
+/* FLOATING ACTION BUTTONS */
+
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.fab-icon-holder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #016fb9;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fab-icon-holder:hover {
+  opacity: 0.8;
+}
+
+.fab-icon-holder i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  font-style: 25px;
+  color: #ffffff;
+}
+
+.fab {
+  width: 60px;
+  height: 60px;
+  background: #d23f31;
+}
+
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+
+  opacity: 0;
+
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 85% bottom;
+}
+
+.fab:hover + .fab-options,
+.fab-options:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fab-options li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.fab-label {
+  padding: 2px 5px;
+  align-self: center;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 16px;
+  background: #666666;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+/* FLOATING ACTION BUTTONS */
+
+/* CARDS */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS */
+
+/* CARDS WITH A BADGE */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.card-badge {
+  background-color: red;
+  color: white;
+  padding: 7px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 85%;
+}
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS WITH A BADGE */
+
+/* CARDS WITH A DISMISS */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.card-closebtn {
+  color: #666666;
+
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  left: 90%;
+}
+.card-closebtn:hover {
+  color: red;
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS WITH A DISMISS */
+/* CARDS WITH OVERLAY */
+.card-overlay {
+  width: 20%;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  /* background: url(./IMG-20211209-WA0012-01-02.jpeg); */
+  background-position: center;
+  background-size: cover;
+}
+.card-overlay-title {
+  text-align: center;
+  color: rgb(198, 191, 191);
+}
+.card-overlay-description {
+  text-align: center;
+  font-size: larger;
+  color: white;
+}
+.card-overlay-description button {
+  color: white;
+  background-color: #666666;
+  padding: 6px 6px;
+  margin-bottom: 20px;
+}
+/* CARDS WITH OVERLAY */
+/* CARDS WITH A SHADOW */
+.shadow-card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 4px 8px rgb(114, 112, 112);
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+
+/* CARDS WITH A SHADOW */
+/* RESPONSIVE IMAGE */
+/* https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+/* RESPONSIVE IMAGE */
+/* ROUND IMAGE */
+.round-image {
+  width: 30%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+/* ROUND IMAGE */
+/* INPUT TEXTBOX */
+.text-area-main {
+  display: inline-block;
+  background-color: #666666;
+}
+/* INPUT TEXTBOX */
+/* VALIDATION FORM */
+.input-form {
+  background-color: #666666;
+  margin: 0px 15px;
+}
+.email-input {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+}
+.password-input {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+}
+.input-form-login {
+  display: block;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 60px;
+}
+/* VALIDATION FORM */
+/* HEADINGS */
+.h1 {
+  font-size: 2em;
+}
+.h2 {
+  font-size: 1.5em;
+}
+.h3 {
+  font-size: 1.17em;
+}
+.h4 {
+  font-size: 1em;
+}
+.h5 {
+  font-size: 0.83em;
+}
+.h6 {
+  font-size: 0.75em;
+}
+/* HEADINGS */
+/* TEXT SIZES */
+.large-text {
+  font-size: 1.5em;
+}
+.medium-text {
+  font-size: 1.17em;
+}
+.regular-text {
+  font-size: 1em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+/* TEXT SIZES */
+/* TEXT WEIGHTS */
+.light-text {
+  font-weight: 300;
+}
+.regular-text {
+  font-weight: 500;
+}
+.semibold-text {
+  font-weight: 700;
+}
+.bold-text {
+  font-weight: 900;
+}
+.black-text {
+  font-weight: 900;
+}
+/* TEXT WEIGHTS */
+/* TEXT DECORATIONS AND ALIGNMENTS */
+.gray-text {
+  color: #666666;
+}
+
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+/* TEXT DECORATIONS AND ALIGNMENTS */
+/* RATINGS */
+
+.checked {
+  color: orange;
+}
+/* RATINGS */
+/* GRID LAYOUT */
+.grid-two-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.grid-three-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.grid-container-children {
+  background-color: #d23f31;
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+/* GRID LAYOUT */
+/* NAVIGATION BAR */
+
+.nav-container {
+  list-style: none;
+  display: flex;
+  background-color: cadetblue;
+}
+.nav-container h1 {
+  margin-right: auto;
+}
+
+.nav-items {
+  padding-right: 70px;
+  padding-top: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: larger;
+}
+.nav-items a:hover {
+  color: black;
+}
+/* NAVIGATION BAR */
